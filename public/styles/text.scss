@@ -1,38 +1,74 @@
 .text-center {
-	text-align: center;
+   text-align: center;
 }
 
 .text-left {
-	text-align: left;
+   text-align: left;
 }
 
 .text-right {
-	text-align: right;
+   text-align: right;
 }
 
 .text-justify {
-	text-align: justify;
+   text-align: justify;
 }
 
 .text-italic {
-	font-style: italic;
+   font-style: italic;
 }
 
-.font-normal {
-	font-weight: 400;
+.text-normal {
+   font-weight: 400;
 }
 
-.font-medium {
-	font-weight: 500;
+.text-medium {
+   font-weight: 500;
 }
 
-.font-bold {
-	font-weight: 700;
+.text-bold {
+   font-weight: 700;
 }
 
 .text-nowrap {
-	width: 99%;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
+   width: 99%;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+
+.text-14 {
+   font-size: 1.4rem;
+}
+
+.text-15 {
+   font-size: 1.5rem;
+}
+
+.text-16 {
+   font-size: 1.6rem;
+}
+
+.text-17 {
+   font-size: 1.7rem;
+}
+
+.text-18 {
+   font-size: 1.8rem;
+}
+
+.text-19 {
+   font-size: 1.9rem;
+}
+
+.text-20 {
+   font-size: 2rem;
+}
+
+.text-white {
+   color: #fff;
+}
+
+.text-black {
+   color: #292929;
 }
