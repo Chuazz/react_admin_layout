@@ -1,9 +1,9 @@
 import { ErrorMessage } from '@hookform/error-message';
 import clsx from 'clsx';
+import { ReactNode } from 'react';
 import { useFormContext } from 'react-hook-form';
 import { BsInputCursorText } from 'react-icons/bs';
 import styles from './TextInput.module.scss';
-import { ReactNode, useEffect } from 'react';
 
 interface TextInputProps {
 	/**
