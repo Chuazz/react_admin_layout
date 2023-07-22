@@ -5,6 +5,7 @@ import { SideBar as SidebarTest } from '@/components/Layout/components/Sidebar';
 import HeaderItem from '@/interface/HeaderItem';
 import User from '@/interface/User';
 import brand from '@/test/data/brand';
+import { ReactNode } from 'react';
 
 interface HeaderProps {
 	/**
@@ -18,7 +19,7 @@ interface HeaderProps {
 	/**
 	 * left navbar
 	 */
-	leftNavbar?: JSX.Element;
+	leftNavbar?: ReactNode;
 	/**
 	 * user info
 	 */

@@ -6,6 +6,7 @@ import User from '@/interface/User';
 import { FiChevronRight } from 'react-icons/fi';
 import { Tooltip } from 'react-tooltip';
 import { motion } from 'framer-motion';
+import { ReactNode } from 'react';
 
 interface HeaderProps {
 	/**
@@ -19,7 +20,7 @@ interface HeaderProps {
 	/**
 	 * left navbar
 	 */
-	leftNavbar?: JSX.Element;
+	leftNavbar?: ReactNode;
 	/**
 	 * user info
 	 */
