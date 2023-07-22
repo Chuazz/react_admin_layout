@@ -1,0 +1,108 @@
+.react-datepicker-wrapper{
+	width: 100%;
+	flex: 1;
+}
+
+.react-datepicker.form-date {
+	--size: 30px;
+	--day-size: 40px;
+	width: 336px;
+	padding: 16px;
+	background: #fff;
+	border: 2px solid rgba(38, 85, 115, 0.15);
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	display: block;
+}
+
+.form-date .react-datepicker__triangle {
+	display: none;
+}
+
+.form-date .react-datepicker__month-container {
+	width: 100%;
+}
+
+.form-date .react-datepicker__navigation {
+	text-indent: 0;
+	width: var(--size);
+	height: var(--size);
+	border: 2px solid rgba(38, 85, 115, 0.15);
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	position: initial;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-date .react-datepicker__header.react-datepicker__header--custom {
+	background: #fff;
+	border: none;
+	padding: 0;
+}
+
+.form-date .react-datepicker__current-month {
+	font-size: 1.35rem;
+	color: #292929;
+}
+
+.form-date .react-datepicker__navigation.react-datepicker__navigation--next {
+}
+
+.form-date .react-datepicker__navigation .react-datepicker__navigation--previous {
+}
+
+.form-date .react-datepicker__day-names {
+	margin-bottom: 2px;
+}
+
+.form-date .react-datepicker__day-names .react-datepicker__day-name {
+	width: var(--day-size);
+	height: var(--day-size);
+	margin: 2px;
+	text-align: center;
+	line-height: var(--day-size);
+	font-weight: 500;
+	color: rgb(143, 143, 143);
+	font-size: 1.4rem;
+}
+
+.form-date .react-datepicker__month {
+	margin: 0;
+}
+
+.form-date .react-datepicker__day {
+	width: var(--day-size);
+	height: var(--day-size);
+	margin: 2px;
+	text-align: center;
+	line-height: var(--day-size);
+	border-radius: 6px;
+}
+
+.form-date .react-datepicker__day:hover {
+	border-radius: 6px;
+}
+
+.form-date .react-datepicker__day--outside-month {
+	color: rgb(150, 150, 150);
+}
+
+.form-date .react-datepicker__day.react-datepicker__day--today {
+	background: #55a2ef;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.form-date .react-datepicker__day.react-datepicker__day--selected,
+.form-date .react-datepicker__day.react-datepicker__day--keyboard-selected {
+	background: #263544d9;
+	font-weight: 400;
+	color: #fff;
+}
+
+.form-date .react-datepicker__today-button {
+	margin-top: 16px;
+	font-weight: 500;
+}
