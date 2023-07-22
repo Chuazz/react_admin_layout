@@ -7,10 +7,6 @@ import styles from './TextInput.module.scss';
 
 interface TextInputProps {
 	/**
-	 * identify of input
-	 */
-	id: string;
-	/**
 	 * name for input
 	 */
 	name: string;
@@ -41,7 +37,6 @@ interface TextInputProps {
 }
 
 const TextInput = ({
-	id,
 	name,
 	label,
 	placeholder,
@@ -72,7 +67,6 @@ const TextInput = ({
 				<div className={clsx('row ali-center form-input-body', { 'mt-12': !row })}>
 					{icon ? icon : <BsInputCursorText />}
 					<input
-						id={id}
 						{...register(name)}
 						placeholder={placeholder}
 						className={clsx('ml-12 form-input')}

@@ -4,10 +4,6 @@ import { ReactNode } from 'react';
 
 interface TextInputProps {
 	/**
-	 * identify of input
-	 */
-	id: string;
-	/**
 	 * name for input
 	 */
 	name: string;
@@ -41,7 +37,6 @@ interface TextInputProps {
  * Primary UI component for user interaction
  */
 const TextInput = ({
-	id,
 	name,
 	label,
 	placeholder,
@@ -53,7 +48,6 @@ const TextInput = ({
 	return (
 		<FormProvider>
 			<TextInputTest
-				id={id}
 				name={name}
 				label={label}
 				placeholder={placeholder}
