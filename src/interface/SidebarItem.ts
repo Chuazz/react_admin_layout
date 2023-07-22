@@ -8,7 +8,7 @@ interface SidebarItem {
 	id: any;
 	name: string;
 	to?: string;
-	icon?: JSX.Element;
+	icon?: React.ReactNode;
 	chid?: SidebarChild[];
 }
 
