@@ -35,7 +35,7 @@ interface TextInputProps {
 	 */
 	required?: boolean;
 	/**
-	 * is this input error ?
+	 * is this input error
 	 */
 	error?: boolean;
 }
