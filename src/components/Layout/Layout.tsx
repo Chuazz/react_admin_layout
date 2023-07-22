@@ -1,4 +1,6 @@
-import { PropsWithChildren } from "react";
+import clsx from 'clsx';
+import { PropsWithChildren } from 'react';
+import styles from './Layout.module.scss';
 
 interface LayoutProps extends PropsWithChildren {
 	className?: string;
@@ -6,8 +8,8 @@ interface LayoutProps extends PropsWithChildren {
 
 const Layout = ({ className, children, ...props }: LayoutProps) => {
 	return (
-		<div className="grid wide">
-			<div className="row" {...props}>
+		<div className={clsx(styles.container, 'grid wide')} id='app_root'>
+			<div className='row' {...props}>
 				{children}
 			</div>
 		</div>

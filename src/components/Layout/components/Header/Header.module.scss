@@ -1,0 +1,28 @@
+.container {
+	background: #ffffff;
+	height: 70px;
+	box-shadow: 0 2px 4px 0 rgba(43, 43, 43, 0.1);
+}
+
+.user {
+	--user-img-size: 45px;
+	cursor: pointer;
+
+	img {
+		border-radius: 50%;
+		width: var(--user-img-size);
+		height: var(--user-img-size);
+		border: 2px solid #ffffff;
+		box-shadow: 0 5px 10px 0 rgba(43, 43, 43, 0.2);
+		margin-right: 8px;
+	}
+}
+
+.user_item {
+	padding: 8px 16px;
+	cursor: pointer;
+
+	&:hover {
+		background: #f1f1f1;
+	}
+}
