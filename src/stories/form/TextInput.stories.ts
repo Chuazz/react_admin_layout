@@ -2,7 +2,7 @@ import TextInputTest from '@/test/components/form/TextInput';
 import type { Meta, StoryObj } from '@storybook/react';
 
 const meta = {
-	title: 'Demo/Input Text',
+	title: 'Demo/Text Input',
 	component: TextInputTest,
 	tags: ['autodocs'],
 } satisfies Meta<typeof TextInputTest>;
